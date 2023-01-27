@@ -39,6 +39,7 @@ public class canon : MonoBehaviour
     private void IntanciarBala(){
         Instantiate(bala,pos1,transform.rotation);
         pos1-=resta;
+        Debug.Log("Holaa");
     }
 
 }
